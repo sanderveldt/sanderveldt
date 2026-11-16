@@ -1,16 +1,35 @@
-## Hi there 👋
+# Hi, I'm Sander 👋
 
-<!--
-**sanderveldt/sanderveldt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Self-taught **.NET developer** from the Netherlands. I can work full-stack but my focus is the **backend**.
 
-Here are some ideas to get you started:
+🔍 **Currently looking for:** junior .NET backend or backend-focused full-stack roles in the Netherlands.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Tech stack
+- **Backend:** C#, .NET 10, ASP.NET Core Minimal APIs, Entity Framework Core, ASP.NET Core Identity, FluentValidation
+- **Data:** SQL, PostgreSQL, SQLite
+- **Frontend:** WPF (MVVM, CommunityToolkit.Mvvm), HTML, CSS
+- **Testing:** xUnit, Testcontainers
+- **Tools:** Git, Docker Compose
+
+- **Learning:** Typescript and React
+
+## 📌 Featured project
+
+### [ProcHub](https://github.com/sanderveldt/ProcHub): Procurement & supplier tracking
+An end-to-end system for tracking purchase orders through 13 stasuses, from draft to delivery to close, suppliers and payments. Made with a .NET 10 API and a WPF desktop client.
+
+- **Domain-driven design:** Rich domain model with private setters. Every state change goes through a method that enforces its business rules.
+- **Layered architecture:** Domain → Application (commands/queries + FluentValidation) → Infrastructure → API, with dependencies pointing inward.
+- **Optimistic concurrency** on frequently edited records, using PostgreSQL's `xmin` row version.
+- **Authentication:** ASP.NET Core Identity with bearer tokens, role-based authorization (User / SuperUser / Admin) and account lockout.
+- **API:** Minimal API endpoints with Group routing per feature, Global exception handler middleware with logging, separate client side DTO's.
+- **Tests:** xUnit domain tests, plus integration tests against a real PostgreSQL in Testcontainers.
+
+## 🤖 How I use AI
+Not anti-AI, but critical of it's output. Any code created with agentic assistance is thoroughly reviewed and understood before committed. **NO** vibecoding.
+
+## 🌍 Languages
+Dutch (native) · English (fluent)
+
+## 📫 Contact
+[LinkedIn](https://www.linkedin.com/in/sander-veldt/) · [Email](sanderveldt98@hotmail.com)
