@@ -1,4 +1,4 @@
-# Hi, I'm Sander 👋
+# Hi, I'm Sander
 
 Self-taught **.NET developer** from the Netherlands. I can work full-stack but my focus is on **backend**.
 
@@ -9,14 +9,14 @@ Self-taught **.NET developer** from the Netherlands. I can work full-stack but m
 - **Data:** SQL, PostgreSQL, SQLite
 - **Frontend:** WPF (MVVM, CommunityToolkit.Mvvm), HTML, CSS
 - **Testing:** xUnit, Testcontainers
-- **Tools:** Git, Docker Compose
+- **Tools:** Git, Docker
 
 
 - **Learning:** Typescript and React
 
 ## 📌 Featured project
 
-### [ProcHub](https://github.com/sanderveldt/ProcHub): Procurement & Supplier tracking
+### [ProcHub](https://github.com/sanderveldt/ProcHub): Procurement & Supplier tracking System
 An end-to-end system for tracking suppliers and their purchase orders through 13 statuses, from draft to delivery to close and their pending payments. Made with a .NET 10 API and a WPF desktop client.
 
 - **Domain-driven design:** Rich domain model with private setters. Every state change goes through a method that enforces its business rules.
